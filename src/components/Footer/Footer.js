@@ -5,6 +5,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -57,6 +58,11 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <MessengerCustomerChat
+      pageId="216280915482971"
+    appId="205375315461291"
+      
+      />
     </FooterWrapper>
   );
 };
